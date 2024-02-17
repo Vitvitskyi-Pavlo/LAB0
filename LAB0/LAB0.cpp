@@ -2,10 +2,21 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    int age;
+    cout << "Enter age" << endl;
+    cin >> age;
+    if (age >= 1 && age <= 5) {
+        cout << "Free" << endl;
+    }
+    else if (age >= 6 && age <= 100) {
+        cout << "Platutu treba" << endl;
+    }
+    else {
+        cout << "DOPOBACHENYA" << endl;
+    }
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
